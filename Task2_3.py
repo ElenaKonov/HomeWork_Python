@@ -2,7 +2,7 @@
 
 
 def posled(N):
- sum=0
+ 
  for i in range(1, N+1):
     
     print(round((1+1/i)**i,4), end= ' ,')
