@@ -4,8 +4,8 @@
 
 def get_list(n):
  list=[]
- for i in range(0,n+1):
-    list.append(2*i+3)
+ for i in range(0,n):
+    list.append(2*i+3) # список заполнен элементами последовательности 2n+3.
  return list
 
 
@@ -15,5 +15,5 @@ print(list)
 
 import random
 list1=list[:]
-random.shuffle(list1)
+random.shuffle(list1) # функция библиотеки
 print(list1)
