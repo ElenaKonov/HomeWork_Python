@@ -1,3 +1,6 @@
+#Реализуйте алгоритм перемешивания списка.
+# с помощью цикла
+
 def get_list(n):
   import random
   list=[]
@@ -10,7 +13,7 @@ def  mix_list(list):
   list=list[:]
   length_list=len(list)
 
-  for i in range(length_list):
+  for i in range(length_list):                 
     index_element=random.randint(0,length_list-1)
     temp=list[i]
     list[i]=list[index_element]
