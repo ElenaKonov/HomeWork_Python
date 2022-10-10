@@ -6,7 +6,7 @@
 #- 0,56 -> 11
 
 num=float(input('ВВедите число: '))
-
+if (num<0): num=(-1)*num
 num1=int(num)
 num2=int(round(num%1,10)*pow(10,10))
 
