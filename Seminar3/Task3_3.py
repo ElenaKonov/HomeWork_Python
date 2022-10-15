@@ -9,7 +9,7 @@ def get_list(n):
   import random
   list=[]
   for i in range(0,n):
-    list.append(random.randint(-10,10)+round(random.random(),2))
+   list.append(random.randint(-10,10)+round(random.random(),2))
 
   return list
 
@@ -35,9 +35,9 @@ max_list1=list1[0]
 min_list1=list1[0]
 
 for i in range(0,len(list1)):
-    if (list1[i]>max_list1):
+    if (list1[i]!=0 and list1[i]>max_list1):
             max_list1=list1[i]
-    if(list1[i]<min_list1):
+    if(list1[i]!=0 and list1[i]<min_list1):
             min_list1=list1[i]
 
 difference=max_list1-min_list1  

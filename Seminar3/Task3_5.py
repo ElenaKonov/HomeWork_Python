@@ -17,6 +17,7 @@ for  i in range(1,n):
 neg_list=list[::-1]
 neg_list.pop(n)
 
+
 for i in range(0,n-1):
      if(n % 2==0 and i% 2==0):
       neg_list[i]= -neg_list[i]  
