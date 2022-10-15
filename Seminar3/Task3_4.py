@@ -13,14 +13,18 @@
 
 
 def get_bynarycod(n):
- m=''
- while n>0:
+  
+  m=''
+  while n>0:
      m=str(n%2)+m
      n=n // 2
- return m
+  return m
 
 
 n=int(input('Введите число: '))
-bynary_cod=get_bynarycod(n)
-print( 'Двоичный код числа ', n,' = ', bynary_cod)
+bynary_codN=get_bynarycod(n)
+
+print( 'Двоичный код числа ', n, ' = ', bynary_codN)
+
+
 
