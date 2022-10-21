@@ -23,6 +23,6 @@ def listOfdivisors(num):
     return l
     
 
-num=int(input('Введите число: '))
+num=int(input('Введите число, для которого необходимо найти простые множители: '))
 l=listOfdivisors(num)
 print('Число', num , 'имеет в своем разложении следующие простые числа:' , l)
