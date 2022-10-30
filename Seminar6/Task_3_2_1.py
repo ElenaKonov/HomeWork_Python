@@ -13,12 +13,12 @@ List1=[x for x in range(-10,10)]
 random.shuffle(List1)
 print(List1)
 
-if(not len(List1)%2):
-    size=len(List1)//2
-else:
-       size=len(List1)//2+1
+#if(not len(List1)%2):
+   # size=len(List1)//2
+#else:
+       #size=len(List1)//2+1
 
-List2=[List1[i]*List1[(len(List1)-1)-i]for i in range(0, size)]
+List2=[List1[i]*List1[(len(List1)-1)-i]for i in range(0, len(List1)//2)]
 print('Список произведений элементов:', List2)
 
 
