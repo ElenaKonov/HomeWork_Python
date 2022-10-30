@@ -13,7 +13,7 @@ List1=[x for x in range(-10,10)]
 random.shuffle(List1)
 print(List1)
 
-if(len(List1)%2==0):
+if(not len(List1)%2):
     size=len(List1)//2
 else:
        size=len(List1)//2+1
